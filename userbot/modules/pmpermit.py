@@ -20,16 +20,18 @@ async def permitpm(e):
             apprv = is_approved(e.chat_id)
 
             if not apprv and e.text != \
-                ("`Bleep Blop! This is a Bot. Don't fret. \n\n`"
-                 "`My Master hasn't approved you to PM.`"
-                 "`Please wait for my Master to look in, he would mostly approve PMs.`\n\n"
-                 "`As far as i know, he doesn't usually approve Retards.`"):
+                (("`Hey there! \n\n`"
+
+                 "Suraj is currently sleeping😴 \n\n"
+
+                 "`You may continue typing, he will reply you pretty soon!👽😈`"):
 
                 await e.reply(
-                    "`Bleep Blop! This is a Bot. Don't fret. \n\n`"
-                    "`My Master hasn't approved you to PM.`"
-                    "`Please wait for my Master to look in, he would mostly approve PMs.`\n\n"
-                    "`As far as i know, he doesn't usually approve Retards.`"
+                    ("`Hey there! \n\n`"
+
+                 "Suraj is currently sleeping😴 \n\n"
+
+                 "`You may continue typing, he will reply you pretty soon!👽😈`"
                 )
 
                 if NOTIF_OFF:
